@@ -1,10 +1,11 @@
-## Unveiling the Ecosystem of Science
+## Unveiling the Ecosystem of Science:
+## A contextual perspective on the many roles of scientists
 
-You can use the [editor on GitHub](https://github.com/elrobin/unv-ecos-sci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Research is a team effort. Scholars distribute roles based on the different research activities they perform. These roles shape the academic profile that will define them during their career trajectory. These roles will also change as they acquire experience and seniority. Some scientists coordinate, design and lead research agendas; others develop and produce new tools and software for data collection and processing; others develop conceptual and theoretical frameworks; others engage with non-academic stakeholders and bridge with societal demands.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+However, most research evaluation schemes consider career paths as homogeneous, promoting 'scientific excellence' and 'academic leadership' as the main and desired profile researchers should aim at, without considering the underlying diversity of roles and activities. To unveil this diversity of academic profiles and career options scientists have, we aim to provide novel insights into different professional paths and skills necessary in scientific research. This is an essential step towards developing more nuanced and advanced research evaluation approaches, maximizing researchers' strengths and acknowledging the heterogeneity needed in the scientific workforce to promote a healthy and sustainable research system, compared to the monotonous situation that currently exists.
 
-### Markdown
+### Team members
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -28,10 +29,9 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Research
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elrobin/unv-ecos-sci/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In progress
 
-### Support or Contact
+### About the project
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
