@@ -8,14 +8,12 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 
 - **Nicolas Robinson-Garcia - PI (Fellow)**. Marie Sklodowska Curie Experienced Researcher from the [LEaDing Fellows Programme](http://leadingfellows.eu) working at Delft Institute of Applied Mathematics (TU Delft). Social scientist and bibliometrics expert. [Learn more about Nicolas](http://nrobinsongarcia.com).
 
-- **Tina G. Nane - Supervisor**. Assistant professor at Delft Institute of Applied Mathematics (TU Delft). Member of the Applied Probability research group. [Learn more about Tina](http://dutiosb.twi.tudelft.nl/~tnane/).
+- **Tina G. Nane - Supervisor**. Assistant professor at Delft Institute of Applied Mathematics (TU Delft) and visiting researcher at CWTS (Leiden University. Member of the Applied Probability research group. [Learn more about Tina](http://dutiosb.twi.tudelft.nl/~tnane/).
 
 - **Rodrigo Costas - Collaborator**. Senior researcher at CWTS (Leiden University). Rodrigo's research focuses on the development of new social media metrics (altmetrics), new scientometric applications at the individual-level and the study of funding acknowledgements.[Learn more about Rodrigo](https://www.cwts.nl/people/rodrigo-costas)
 
 - **Thed N. van Leeuwen - Collaborator**. Senior researcher and co-leading the research theme on open scholarship at CWTS (Leiden University). Thed's research focuses on the various aspects of open scholarship, as well as on the research assessment of scholarly activity in the social sciences, the humanities, and law. He is co-editor of the OUP journal Research Evaluation. [Learn more about Thed](https://www.cwts.nl/people/thed-van-leeuwen)
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Research
 
@@ -23,3 +21,6 @@ In progress
 
 ### About the project
 
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 707404. The opinions expressed in this project site reflect only the author's view. The European Commission is not responsible for any use that may be made of the information it contains.
+
+![Project funded by the European Commissiion](images/eu_2020.png)
