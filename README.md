@@ -11,23 +11,7 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 
 Nicolas Robinson-Garcia is a Marie Sklodowska Curie Experienced Researcher from the [LEaDing Fellows Programme](http://leadingfellows.eu) working at Delft Institute of Applied Mathematics at TU Delft. More information about Nicolas can be found at his [website](http://nrobinsongarcia.com).
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
