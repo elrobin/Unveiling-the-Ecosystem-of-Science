@@ -23,4 +23,4 @@ In progress
 
 This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 707404. The opinions expressed in this project site reflect only the author's view. The European Commission is not responsible for any use that may be made of the information it contains.
 
-![Project funded by the European Commissiion](images/eu_2020.png)
+![Project funded by the European Commissiion](images/eu_2020_150x150.png)
