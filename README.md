@@ -15,11 +15,13 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 - **Thed N. van Leeuwen - Collaborator**. Senior researcher and co-leading the research theme on open scholarship at CWTS (Leiden University). Thed's research focuses on the various aspects of open scholarship, as well as on the research assessment of scholarly activity in the social sciences, the humanities, and law. He is co-editor of the OUP journal Research Evaluation. [Learn more about Thed](https://www.cwts.nl/people/thed-van-leeuwen)
 
 
-### Research
+### Research outputs
 
 In progress
 
 ### About the project
+
+To learn more about the project, please read the [summary of proposal and training plan](docs/LF-Summary-proposal-training-plan.pdf).
 
 This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 707404. The opinions expressed in this project site reflect only the author's view. The European Commission is not responsible for any use that may be made of the information it contains.
 
