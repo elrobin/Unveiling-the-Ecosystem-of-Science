@@ -17,7 +17,13 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 
 ### Research outputs
 
-In progress
+**Conference proceedings**
+
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model [Poster]. *Submitted*
+
+**Working papers**
+
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Unveiling the ecosystem of science: Towards an integrative valuation model of the many roles of scientists. *In preparation*
 
 ### About the project
 
