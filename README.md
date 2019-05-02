@@ -19,10 +19,12 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 
 **Conference proceedings**
 
-- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model [Poster]. *Submitted*
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model [Poster]. *Accepted at the ISSI 2019 Conference held in Rome (Italy), Sep 2-5, 2019.*
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model. *Submitted to Atlanta Conference 2019*
 
 **Working papers**
 
+- Robinson-Garcia, N., Costas, R., Sugimoto, C.R., Larivière, V., Nane, T. Identifying scientific profiles and their effects on research trajectories. *In preparation*
 - Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Unveiling the ecosystem of science: Towards an integrative valuation model of the many roles of scientists. *In preparation*
 
 ### About the project
