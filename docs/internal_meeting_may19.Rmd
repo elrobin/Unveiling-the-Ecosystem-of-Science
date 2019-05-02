@@ -1,0 +1,48 @@
+---
+title: "Effects of specialization in scientific trajectories"
+author: "Nicolas Robinson-Garcia"
+date: "May 7, 2019"
+output: 
+  beamer_presentation:
+    theme: "Antibes"
+    colortheme: "beaver"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Context
+
+Many studies have been reporting for years the high increase on the number of authors per paper and the need for larger and larger teams.
+
+Among other reasons, 'Mode 2' production of knowledge, need to access resources or recombination of knowledge to tackle grand challenges are among some of the potential explanations given
+
+Studies are reporting that a distribution of labour is taking place whithin the scientific enterprise. If so, this jeopardizes traditional individual research assessment schemes.
+
+## Some ideas from the literature
+
+- Contribution statements
+- Assessment of research teams
+- Throwing everything off board
+
+First two, nice in theory, difficult in practice. Third... not really helpful.
+
+## Main goal and research questions
+
+Identify scientific profiles of individuals based on their contribution in their complete publication history and effects on longetivity, citation, productivity, etc.
+
+- *Is there a relation between traditional bibliometric variables and contribution type?* e.g., author position, seniority, etc.
+
+- *Can we predict contribution type based on such bibliometric variables?*
+
+- *Do roles exerted by researchers in publications lead to diversity of profiles?*
+
+- *Are specific roles being actually neglected by publication and citation-based assessments?*
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
