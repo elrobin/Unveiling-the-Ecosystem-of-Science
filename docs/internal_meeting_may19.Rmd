@@ -1,5 +1,5 @@
 ---
-title: "Effects of specialization in scientific trajectories"
+title: "The effects of specialization in research trajectories"
 author: "Nicolas Robinson-Garcia"
 date: "May 7, 2019"
 output: 
@@ -12,37 +12,121 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Context
+## Main research question and objectives
 
-Many studies have been reporting for years the high increase on the number of authors per paper and the need for larger and larger teams.
+**How having specific scientific profiles affect individuals' research careers?**
 
-Among other reasons, 'Mode 2' production of knowledge, need to access resources or recombination of knowledge to tackle grand challenges are among some of the potential explanations given
+- Identification of scientific profiles
+- Comparisons between profiles and length of scientific careers, productivity, impact, gender... (to be discussed)
 
-Studies are reporting that a distribution of labour is taking place whithin the scientific enterprise. If so, this jeopardizes traditional individual research assessment schemes.
+## Rationale
 
-## Some ideas from the literature
+1. Construction of predicting models of contributorship based on bibliometric indicators
+2. Validation of such models
+3. Prediction of contributorship for a set of individuals for their complete publication history
+4. Profiling of individuals
+5. Comparisons
 
-- Contribution statements
-- Assessment of research teams
-- Throwing everything off board
+## Methodological notes
 
-First two, nice in theory, difficult in practice. Third... not really helpful.
+- Steps 1 and 2 use Plos contributorship data (old dataset)
+- Steps 3-5 use complete publication history of a selection of authors
+- Analysis is done by fields using high level NOWT Classification of seven subject categories (based on paper references): 
+    - Medical & Life Sciences 
+    - Natural Sciences 
+    - Multidisciplinary 
+    - Social & Behavioral Sciences 
+    - Law, Arts & Humanities 
+    - Engineering 
+    - Language, Information & Communication
 
-## Main goal and research questions
+## Variables
 
-Identify scientific profiles of individuals based on their contribution in their complete publication history and effects on longetivity, citation, productivity, etc.
+- Author position
+- Number of authors
+- Number of pubs. of an author at the time of the publication
+- Academic age at  the time of the publication 
+- Document type: Article or review 
+- Contribution types as dummy variables
+- Number of contribution per author
 
-- *Is there a relation between traditional bibliometric variables and contribution type?* e.g., author position, seniority, etc.
+## Some descriptives: General counts
 
-- *Can we predict contribution type based on such bibliometric variables?*
+| Fields              | Publications   | Authors |
+|---------------------|----------------|---------|  
+| Med & Life Sci      | 71083          | 348710  |
+| Natural Sci         | 4731           | 19994   |
+| Multidisciplinary   | 1746           | 9054    |
+| Soc & Behav Sci     | 1618           | 5538    |
+| Engineering         | 132            | 547     |
+| Law, A & Hum        | 64             | 291     |
+| Lang, Inform & Comm | 55             | 181     |
 
-- *Do roles exerted by researchers in publications lead to diversity of profiles?*
 
-- *Are specific roles being actually neglected by publication and citation-based assessments?*
+## Some descriptives: Publication overlap between fields
 
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
+```{r echo=FALSE}
+knitr::include_graphics("C:/Users/Nicolas/Documents/R/plus-contribution/figs/venn_nowt_high.png")
 ```
+
+## Some descriptives: Differences on distribution of labor
+
+```{r}
+knitr::include_graphics("C:/Users/Nicolas/Documents/R/Unveiling-the-Ecosystem-of-Science/docs/distro1.png")
+```
+
+## Some descriptives: Differences on distribution of labor
+
+```{r}
+knitr::include_graphics("C:/Users/Nicolas/Documents/R/Unveiling-the-Ecosystem-of-Science/docs/distro2.png")
+```
+
+## Step 1. Bayesian networks
+
+Machine learning technique aiming at identifying relation between variables
+
+- No _a priori_ assumptions on the relation of variables is made.
+- The algorithm is run separately for each field
+- We use bootstrapping and run the algorithm 50 times per field to maintain only stronger linkes between variables
+- The method allows cross-validation and estimation of classification errors
+
+## Some examples: Law, Arts & Humanities
+
+```{r}
+knitr::include_graphics("C:/Users/Nicolas/Documents/R/Unveiling-the-Ecosystem-of-Science/docs/hum_bn.png")
+```
+
+## Some examples: Engineering
+
+```{r}
+knitr::include_graphics("C:/Users/Nicolas/Documents/R/Unveiling-the-Ecosystem-of-Science/docs/eng_bn.png")
+```
+
+## Cross-validation: Classification errors
+
+
+| Mean class. error                  |Eng         |A & Hum     |Lang     |Med & Life     |Mult   |Nat Sci            |Soc Sci    |
+|:--------------------------------------|:-------------------|:-------------------|:-------------------|:------------------|:-------------------|:------------------|:------------------|
+|**Wrote paper**|0.04 |0.11 |0 |0.02  |0.02   |0.01  |0.03  |
+|**Analyzed data**|0.04 |0.07 |0.05 |0.02 |0.01 |0.00 |0.04  |
+|**Conceived exp.**              |0.05 |0.06 |0.08 |0.01 |0.01 |0.00 |0.03 |
+|**Performed exp.**              |0.05 |0.09 |0.10 |0.02|0.01 |0.01 |0.05 |
+|**Contributed**                  |0.04 |0.10 |0.08 |0.02 |0.02 |0.01 |0.05 |
+|**Approved** | | | |0.03 | |0.01 |0.01 |
+|**Other**                              |0.07 |0.14 |0.05 |0.01 |0.01 |0.01 |0.07 |
+
+
+## Next steps
+
+1. Create _ideal_ table conditioning bibliometric variables to show the *expected* contribution of authors by field, career, experience and position.
+
+2. Select a set of authors and predict contribution for their complete publication history.
+
+3. Profiling of authors: Archetypal analysis? Clustering techniques?
+
+4. Comparisons between profiles based on (for starters) career length, productivity and impact
+
+*Target journal:* PNAS
+
+*Authors:* Nicolas, Rodrigo, Cassidy, Vincent and Tina
 
