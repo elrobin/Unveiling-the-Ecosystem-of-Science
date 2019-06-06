@@ -19,8 +19,8 @@ However, most research evaluation schemes consider career paths as homogeneous, 
 
 **Conference proceedings**
 
-- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model [Poster]. *Accepted at the ISSI 2019 Conference held in Rome (Italy), Sep 2-5, 2019.*
-- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model. *Submitted to Atlanta Conference 2019*
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. [Towards a multidimensional valuation model](docs/LF-model-ISSI2019-poster_final.pdf) (Poster). *Accepted at the ISSI 2019 Conference held in Rome (Italy), Sep 2-5, 2019.*
+- Robinson-Garcia, N., Costas, R., van Leeuwen, T.N., Nane, T. Towards a multidimensional valuation model. *Accepted at the Atlanta Conference 2019 held in Atlanta (United States), Oct 14-16, 2019*
 
 **Working papers**
 
